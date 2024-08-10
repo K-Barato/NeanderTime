@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Player2",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Prize2",
+  "eventList":[],
   "managed":true,
-  "name":"Player2",
+  "name":"Prize2",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_nean_white_idle",
-    "path":"sprites/spr_nean_white_idle/spr_nean_white_idle.yy",
+    "name":"spr_sun",
+    "path":"sprites/spr_sun/spr_sun.yy",
   },
   "spriteMaskId":null,
   "visible":true,

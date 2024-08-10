@@ -6,6 +6,18 @@ key_jump = keyboard_check(ord("W"));
 // Horizontal movement
 var move = key_right - key_left;
 hsp = move * walksp;
+if (move != 0) {
+    sprite_index = spr_nean_white_walking; // Set to running sprite
+}else if(key_jump)
+{
+	sprite_index = spr_nean_white_jumping;
+}
+else {
+    sprite_index = spr_nean_white_idle; // Set to idle sprite (if you have one)
+}
+
+
+
 
 // Apply gravity only if the player is not on the ground
 if (!place_meeting(x, y + 1, O_Separator) && !place_meeting(x, y + 1, O_Rock)) {
@@ -13,9 +25,11 @@ if (!place_meeting(x, y + 1, O_Separator) && !place_meeting(x, y + 1, O_Rock)) {
 } else {
     vsp = 0; // Reset vertical speed when on the ground
     if (key_jump) {
+		sprite_index = spr_nean_white_jumping;
         vsp = jump_strength; // Jump strength
     }
 }
+
 
 // Horizontal collision
 if (place_meeting(x + hsp, y, O_Rock)) {
@@ -34,3 +48,8 @@ if (place_meeting(x, y + vsp, O_Separator) || place_meeting(x, y + vsp, O_Rock))
     vsp = 0;
 }
 y += vsp;
+
+
+if (place_meeting(x, y, Prize2)) {
+    room_goto(Level2); // Redirect to room level2
+}

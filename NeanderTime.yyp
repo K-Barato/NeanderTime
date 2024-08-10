@@ -30,11 +30,13 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.800.0.602",
+    "IDEVersion":"2024.800.0.605",
   },
   "name":"NeanderTime",
   "resources":[
+    {"id":{"name":"commit","path":"objects/commit/commit.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Spritecommit","path":"sprites/Spritecommit/Spritecommit.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

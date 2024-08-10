@@ -42,7 +42,7 @@
     ],
     "top":0,
   },
-  "origin":4,
+  "origin":5,
   "parent":{
     "name":"NeanderTime",
     "path":"NeanderTime.yyp",
@@ -69,7 +69,7 @@
     "eventStubScript":null,
     "eventToFunction":{},
     "length":1.0,
-    "lockOrigin":false,
+    "lockOrigin":true,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
       "Keyframes":[],
@@ -94,7 +94,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":32,
+    "xorigin":64,
     "yorigin":32,
   },
   "swatchColours":null,

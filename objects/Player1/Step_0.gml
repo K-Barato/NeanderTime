@@ -6,6 +6,13 @@ key_jump = keyboard_check(vk_up);
 var move = key_right - key_left;
 hsp = move * walksp;
 
+if (move == 1) {
+    image_xscale = 1;
+}
+if (move == -1) {
+    image_xscale = -1;
+}
+
 if (move != 0) {
     sprite_index = spr_nean_black_walking; // Set to running sprite
 }else if(key_jump)

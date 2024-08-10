@@ -6,6 +6,13 @@ key_jump = keyboard_check(ord("W"));
 // Horizontal movement
 var move = key_right - key_left;
 hsp = move * walksp;
+if (move == 1) {
+    image_xscale = 1;
+}
+if (move == -1) {
+    image_xscale = -1;
+}
+
 if (move != 0) {
     sprite_index = spr_nean_white_walking; // Set to running sprite
 }else if(key_jump)
@@ -38,6 +45,13 @@ if (place_meeting(x + hsp, y, O_Rock)) {
     }
     hsp = 0;
 }
+
+if (place_meeting(x + hsp, y, Dino)) {
+    while (!place_meeting(x + sign(hsp), y, Dino)) {
+        hsp = 0;vsp=0;
+    }
+}
+
 x += hsp;
 
 // Vertical collision with both ground and rock

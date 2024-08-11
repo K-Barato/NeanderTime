@@ -16,3 +16,4 @@ menu[0] = "Player 2";
 
 menu_items = array_length(menu);
 menu_cursor = 1;
+

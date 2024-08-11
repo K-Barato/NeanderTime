@@ -1,3 +1,3 @@
-alarm[0] = 140;
+alarm[0] = 240;
 
 shoot = true;

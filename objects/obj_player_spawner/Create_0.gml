@@ -1,4 +1,4 @@
-destination_x = 29;
-destination_y = 127;
+destination_x = 212;
+destination_y = 150;
 
 instance_destroy();

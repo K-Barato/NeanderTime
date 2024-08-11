@@ -1,11 +1,8 @@
 event_inherited();
 
-init_move_speed = 4;
-
-
-
 has_controll = true;
-changing_room = false;
 
+next_player_state = obj_player;
+next_player_room = rm_level_1;
 
-obj_game_manager.current_player_state = self.object_index;
+obj_global_values_manager.current_player_state = self.object_index;

@@ -1,1 +1,0 @@
-current_player_state = obj_player;

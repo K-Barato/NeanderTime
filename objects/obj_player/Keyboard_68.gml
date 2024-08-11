@@ -3,7 +3,7 @@ if (!has_controll || keyboard_check(ord("A")))
 	exit;
 }
 
-vel_x = move_speed;
+vel_x = +move_speed;
 
 if (grounded)
 {

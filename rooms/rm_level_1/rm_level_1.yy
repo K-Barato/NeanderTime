@@ -143,10 +143,9 @@
     {"name":"inst_7BA23D0","path":"rooms/rm_level_1/rm_level_1.yy",},
     {"name":"inst_79D84925","path":"rooms/rm_level_1/rm_level_1.yy",},
     {"name":"inst_74621D7A","path":"rooms/rm_level_1/rm_level_1.yy",},
-    {"name":"inst_3D52DB20","path":"rooms/rm_level_1/rm_level_1.yy",},
-    {"name":"inst_7F4D2E77","path":"rooms/rm_level_1/rm_level_1.yy",},
     {"name":"inst_428793AC","path":"rooms/rm_level_1/rm_level_1.yy",},
     {"name":"inst_7C85034A","path":"rooms/rm_level_1/rm_level_1.yy",},
+    {"name":"inst_9FB274B","path":"rooms/rm_level_1/rm_level_1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -154,8 +153,7 @@
     {"$GMRInstanceLayer":"","%Name":"Enemies","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_573807DA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_573807DA","objectId":{"name":"obj_plant_piranha","path":"objects/obj_plant_piranha/obj_plant_piranha.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1056.0,"y":160.0,},
         {"$GMRInstance":"v1","%Name":"inst_7BA23D0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7BA23D0","objectId":{"name":"obj_pterodactile_generator","path":"objects/obj_pterodactile_generator/obj_pterodactile_generator.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
-        {"$GMRInstance":"v1","%Name":"inst_3D52DB20","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3D52DB20","objectId":{"name":"obj_cangrejo","path":"objects/obj_cangrejo/obj_cangrejo.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.4181818,"scaleY":0.4181818,"x":672.0,"y":160.0,},
-        {"$GMRInstance":"v1","%Name":"inst_7F4D2E77","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7F4D2E77","objectId":{"name":"obj_cangrejo","path":"objects/obj_cangrejo/obj_cangrejo.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.4181818,"scaleY":0.4181818,"x":704.0,"y":160.0,},
+        {"$GMRInstance":"v1","%Name":"inst_9FB274B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_9FB274B","objectId":{"name":"obj_crab","path":"objects/obj_crab/obj_crab.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":160.0,},
       ],"layers":[],"name":"Enemies","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Miscellaneous","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_79D84925","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_79D84925","objectId":{"name":"obj_goal","path":"objects/obj_goal/obj_goal.yy",},"properties":[

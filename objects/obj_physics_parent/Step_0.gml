@@ -1,0 +1,20 @@
+if (!physics_enable) exit;
+grounded = check_collision(0, 1);
+
+if (round(vel_x) != 0)
+{
+	var _friction_applied = sign(vel_x) * friction_power;
+
+	if (!grounded)
+	{
+		_friction_applied = _friction_applied / 4;
+	}
+
+	vel_x -= _friction_applied;
+}
+else
+{
+	vel_x = 0;
+}
+
+vel_y += grav_speed;

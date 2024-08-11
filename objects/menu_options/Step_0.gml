@@ -43,11 +43,13 @@ if (menu_x > gui_width + 150 && menu_committed != -1)
 		case 1:
 			obj_global_values_manager.player_selected = "player_1";
 			obj_global_values_manager.current_player_state = obj_white_nean;
+			obj_global_values_manager.current_level = "level1"
 			room_goto(rm_wait_player);
 		break;
 		case 0:
 			obj_global_values_manager.player_selected = "player_2";
 			obj_global_values_manager.current_player_state = obj_black_nean;
+			obj_global_values_manager.current_level = "level1";
 			room_goto(rm_wait_player);
 		break;
 		

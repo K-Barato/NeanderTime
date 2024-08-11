@@ -84,6 +84,7 @@
     {"id":{"name":"rm_level_2_2","path":"rooms/rm_level_2_2/rm_level_2_2.yy",},},
     {"id":{"name":"rm_wait_player","path":"rooms/rm_wait_player/rm_wait_player.yy",},},
     {"id":{"name":"check_collision","path":"scripts/check_collision/check_collision.yy",},},
+    {"id":{"name":"firestore","path":"scripts/firestore/firestore.yy",},},
     {"id":{"name":"background_aztec_1","path":"sprites/background_aztec_1/background_aztec_1.yy",},},
     {"id":{"name":"background_aztec_2","path":"sprites/background_aztec_2/background_aztec_2.yy",},},
     {"id":{"name":"background_viking_1","path":"sprites/background_viking_1/background_viking_1.yy",},},

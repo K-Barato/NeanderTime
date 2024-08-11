@@ -19,7 +19,7 @@ if(player_selected == "player_1")
 // Realiza la solicitud HTTP con el método PATCH
 http_request(_url, "PATCH", _header_map, _json_data);
 
-request_interval = 60 * 3; // Change to 1 for the demo
+request_interval = 60 * 1; // Change to 1 for the demo
 request_timer = request_interval;
 
 //waiting player

@@ -42,11 +42,11 @@ if (menu_x > gui_width + 150 && menu_committed != -1)
 	{
 		case 1:
 			obj_global_values_manager.player_selected = "player_1";
-			room_goto(Level1);
+			room_goto(rm_level_1);
 		break;
 		case 0:
 			obj_global_values_manager.player_selected = "player_2";
-			room_goto(Level1);
+			room_goto(rm_level_1);
 		break;
 		
 	}

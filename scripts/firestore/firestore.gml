@@ -16,6 +16,7 @@ function update_state_player(_level, _player){
 				_json_data = "{\"fields\": {\"p2_level1\": {\"booleanValue\": true}}}";
 			}
 
+
 		break;
 			
 		
